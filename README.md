@@ -25,7 +25,7 @@ After installation completed to start the application, in the folder with the ap
 
 The **action** option can take the values of **encode** and **decode** and indicates what needs to be done with the incoming text: **encrypt** or **decrypt**.
 
-The **shift** option must be a positive integer. It denote a **shift** of letters for encryption and decryption.
+The **shift** option must be an integer. It denote a **shift** of letters for encryption and decryption.
 
 **Action** and **shift** options are **mandatory**: if one of then absent, there will be an **error**. **Input** and **output** options must be relative or absolute path to file or even filename if file is in application root folder (**input** is the path to the file from which the text is read; **output** is the path to the file where the text will be written).
 
