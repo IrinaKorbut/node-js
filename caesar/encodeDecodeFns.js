@@ -2,10 +2,8 @@ function caesarCipher(action, number, string) {
   switch (action) {
     case "encode":
       return encodeDecode(number, string);
-      break;
     case "decode":
       return encodeDecode(-number, string);
-      break;
     default:
       process.stderr.write('action (a) should be "encode" or "decode"');
       process.exit(1);

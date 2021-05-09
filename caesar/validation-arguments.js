@@ -21,11 +21,17 @@ module.exports = function () {
 
   arguments.action = argv.a || argv.action;
   arguments.shift = argv.s == 0 || argv.shift == 0 ? 0 : argv.s || argv.shift;
-  arguments.shift = Number(arguments.shift) ? Number(arguments.shift) : undefined;
+  arguments.shift = Number(arguments.shift)
+    ? Number(arguments.shift)
+    : undefined;
   arguments.input = argv.i || argv.input;
   arguments.output = argv.o || argv.output;
 
-  if (typeof arguments.shift !== "number" || arguments.shift === undefined || (arguments.shift % 1 !== 0)) {
+  if (
+    typeof arguments.shift !== "number" ||
+    arguments.shift === undefined ||
+    arguments.shift % 1 !== 0
+  ) {
     Error += "arguments shift (s) should be integer number\n";
   }
   if (arguments.action !== "encode" && arguments.action !== "decode") {

@@ -8,7 +8,7 @@ This is a command line application. It encrypts and decrypts text with Caesar ci
 
 To install this application you must perform the following steps:
 1. Download it from repository.
-2. Run the cpmmand line and go to the application folder.
+2. Run the command line and go to the application folder.
 3. Enter the command line "npm install" or "npm i" and wait for the dependency installation process to complete.
 4. The application is ready to go!
 
@@ -16,7 +16,8 @@ To install this application you must perform the following steps:
 
 ## How to use
 
-After installation completed to start the application, in the folder with the application, enter the following into the command line: "node caesar/caesar [options]", where options are command line parameters that determine the operation of the application (short alias and full name):
+
+After installation completed switch to the required branch, enter the following into the command line: "git checkout task1/caesar-cipher-cli-tool" and to start the application, enter the following into the command line: "node caesar/caesar [options]", where options are command line parameters that determine the operation of the application (short alias and full name):
 * -s, --shift: a shift
 * -i, --input: an input file
 * -o, --output: an output file
