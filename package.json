@@ -1,0 +1,23 @@
+{
+  "name": "caesar",
+  "version": "1.0.0",
+  "description": "This is a command line application. It encrypts and decrypts text with Caesar cipher. The application encrypts and decrypts only letters of the Latin alphabet. All other characters, including letters from the other languages, numbers, punctuation marks, etc. remain unchanged.",
+  "main": "caesar.js",
+  "dependencies": {
+    "commander": "^7.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrinaKorbut/node-js.git"
+  },
+  "author": "Iryna Korbut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrinaKorbut/node-js/issues"
+  },
+  "homepage": "https://github.com/IrinaKorbut/node-js#readme"
+}
